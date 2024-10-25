@@ -19,7 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     file_put_contents($filePath, json_encode($existingData, JSON_PRETTY_PRINT));
 
-    echo "Dane zostały zapisane pomyślnie!";
+    echo "Dane zostały zapisane!";
 } else {
     echo "Niepoprawna metoda żądania.";
 }
