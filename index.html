@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Main page</title>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+
+ <iframe width="600" height="300"
+src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe> 
+
+<br/>
+<a href="https://www.facebook.com/">facebook</a>
+
+<br/>
+<h2>Logowanie</h2>
+<form action="login.php" method="POST">
+	<label>Login</label>
+    <br/>
+    <input type="text" name="name" required>
+    <br/>
+    <label>Password</label>
+    <br/>
+    <input type="password" name ="password" required>
+    <br/>
+    <br/>
+    <input type="submit" value="Log in">
+</form>    
+    
+<h2>Formularz</h2>
+<form id="infoForm" action="saving.php" method="POST">
+    <label for="username">Wprowadź nazwę użytkownika:</label><br>
+    <input type="text" id="username" name="username" required><br>
+    <label for="data">Wprowadź dane:</label><br>
+    <input type="text" id="data" name="data" required><br><br>
+    <input type="submit" value="save">
+</form>
+
+</body>
+</html>
